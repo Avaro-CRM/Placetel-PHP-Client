@@ -7,8 +7,15 @@
       "Avaro\\Placetel\\": "src/"
     }
   },
+  "license": "MIT",
   "require": {
     "php": "^8.0",
     "guzzlehttp/guzzle": "^7.10"
-  }
+  },
+  "authors": [
+    {
+      "name": "Jan Habbo Brüning",
+      "email": "jan.habbo.bruening@gmail.com"
+    }
+  ]
 }
