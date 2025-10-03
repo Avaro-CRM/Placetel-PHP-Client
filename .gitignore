@@ -1,0 +1,38 @@
+# Composer dependencies
+/vendor/
+
+# Composer lock file (optional, wenn du Library entwickelst)
+# Für Libraries wird empfohlen, composer.lock nicht zu committen
+/composer.lock
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+
+# IDEs
+/.idea/
+/.vscode/
+/nbproject/
+/*.swp
+
+# PHPUnit
+.phpunit.result.cache
+/phpunit.xml
+/phpunit.xml.dist
+
+# Logs
+*.log
+
+# Cache
+/cache/
+/tmp/
+
+# Coverage reports
+/coverage/
+/build/
+
+# PHPCS / PHPStan / Psalm cache
+.php_cs.cache
+.php-cs-fixer.cache
+.phpstan.cache
+.psalm.cache
