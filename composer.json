@@ -1,0 +1,13 @@
+{
+  "name": "avaro/placetel-php-client",
+  "description": "A PHP client library for the Placetel REST API",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Avaro\\Placetel\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.10"
+  }
+}
